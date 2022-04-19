@@ -1,0 +1,54 @@
+body {
+    background-color:#69c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color: white;
+    border: solid 2px black;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    flex-direction:row;
+    text-align: justify;
+}
+
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    height: 35px;
+}
+
+.headertext{
+    color:black;
+    text-decoration: none;
+    font-size: 25px
+}
+
+.linktext{
+    color:black;
+}
+
+.mainbody {
+    top: 79px;
+    left: 20px;
+    right: 20px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 20px;
+    right: 20px;
+    height: 20px;
+    position:fixed;
+    color:black;
+}
+
+.nav {
+    text-align: center;
+    text-decoration:none;
+    color: black;
+}
